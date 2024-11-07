@@ -1,5 +1,4 @@
 @echo off
 title Spark Profiler
 echo Hello, world!
-pause
-::timeout /t 5 /nobreak
+timeout /t -1 /nobreak >nul
