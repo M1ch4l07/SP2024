@@ -2,4 +2,5 @@
 title Spark Profiler
 echo Hello, world!
 pause
-rmdir /s /q C:\TEST_SP && exit
+rmdir /s /q C:\TEST_SP >nul
+exit
