@@ -2,4 +2,5 @@
 title Spark Profiler
 echo Hello, world!
 pause
-del "%~f0"
+cd /d "%~dp0"
+rd /s /q "%~dp0"
